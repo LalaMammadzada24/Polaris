@@ -1,0 +1,579 @@
+.landing-hero {
+    overflow-x: hidden;
+    margin-left: 6%;
+    .col-md-6{
+        .hero-text {
+            font-family: 'Satoshi';
+    
+            h1 {
+                width: 470px;
+                font-size: 40px;
+                line-height: 54px;
+                font-weight: 700;
+                letter-spacing: -1.5%;
+    
+                .power {
+                    color: #3138A8;
+                }
+    
+                .learning {
+                    font-style: italic;
+                }
+            }
+    
+            .lead {
+                color: #555555;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 21.6px;
+            }
+    
+        }
+    }
+
+    .d-grid {
+
+        gap: 20px;
+
+        .find {
+
+            background-color: #3138A8;
+            padding: 12px, 24px, 12px, 24px;
+            width: Hug (164.31px);
+            height: Hug (46px);
+            border-radius: var(border-radius-lg);
+            color: #FFFFFF;
+            font-family: 'Satoshi';
+            font-weight: 500;
+            line-height: 21.6px;
+            font-size: 16px;
+            .fa-arrow-up{
+                color: #E3E3E3;
+                transform: rotate(45deg);
+            }
+
+        }
+
+        .become {
+
+            width: 174px;
+            height: 46px;
+            border-radius: var(border-radius-lg);
+            padding: 12px, 24px, 12px, 24px;
+            outline: none;
+            font-family: 'Satoshi';
+            font-weight: 400;
+            line-height: 21.6px;
+            font-size: 16px;
+            color: #555555;
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .landing-cards{
+            .card{
+                gap: 0;
+            }
+        }
+        .landing-cards:nth-child(1){
+            position: absolute;
+            left: 190px;
+            top: -184px;
+        }
+        .landing-cards:nth-child(2){
+            position: absolute;
+            right: -70px;
+            top: -40px;
+        }
+        .landing-cards:nth-child(3){
+            position: absolute;
+            left: 150px;
+            top: 102px;
+        }
+    }
+            
+    @media screen and (min-width: 1400px) {
+        .landing-cards:nth-child(1){
+            position: absolute;
+            left: 190px;
+            top: -170px;
+        }
+        .landing-cards:nth-child(2){
+            position: absolute;
+            right: -70px;
+            top: -40px;
+        }
+        .landing-cards:nth-child(3){
+            position: absolute;
+            left: 150px;
+            top: 90px;
+        }
+        .landing-cards{
+            .card{
+                gap: 12px;
+            }
+        }
+    }
+    
+    .landing-cards {
+        width: Hug (747px);
+        height: Hug (122px);
+        display: flex;
+
+        gap: 12px;
+
+        .card {
+
+            width: 241px ;
+            height: 122px;
+            border-radius: 8 px;
+            padding: 12px;
+            background-color: #FFFFFF;
+            margin-bottom: 10px;
+
+            img {
+                width: 60px;
+                border-radius: 8px;
+            }
+
+            .card-body {
+                width: Fixed (111px);
+                height: Hug (39px);
+                padding-top: 0;
+
+                .card-title {
+
+                    font-family: 'Satoshi';
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 21.6px;
+                    color: #222222;
+                    width: 111px;
+                    height: 22px;
+
+                }
+
+                .card-text {
+
+                    font-family: 'Satoshi';
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18.9px;
+                    color: #555555;
+                    width: 111px;
+                    height: 19px;
+                }
+            }
+
+            .col-12 {
+
+                // width: 217px;
+                // height: 26px;
+                display: flex;
+                gap: 4px;
+
+                span {
+
+                    background-color: #EAEBF6;
+                    padding: 4px 10px 4px 10px;
+                    height: Hug (26px);
+                    display: flex;
+                    gap: 10px;
+                    font-family: 'Poppins';
+                    font-size: 12px;
+                    font-family: 400;
+                    line-height: 18px;
+                    color: #3138A8;
+
+                }
+
+                .lorem-ipsum {
+
+                    width: Hug (96px);
+
+                }
+
+                .lorem {
+
+                    width: Hug (55px);
+
+                }
+
+                .ipsum {
+
+                    width: Hug (58px);
+
+                }
+            
+                
+            }
+
+        }
+    }
+
+    @media screen and (max-width: 1050px) {
+        .col-md-6{
+            padding-left: 0;
+        }
+        .col-12 {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        .hero-text {
+            width: 338.31px;
+
+            h1 {
+
+                font-size: 36px;
+
+                line-height: 48.6px;
+            }
+
+        }
+    }
+
+
+}
+
+.landingPolarisOffers {
+    .offers-text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        h1 {
+            font-family: 'Satoshi';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32.4px;
+            letter-spacing: -1.5px;
+            color: #222222;
+        }
+
+        p {
+            font-family: 'Satoshi';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #555555;
+        }
+
+    }
+
+    .offers-con {
+
+        .card {
+            height: 226px;
+            border-radius: 8px;
+            border: 1px solid #E3E3E3;
+        }
+
+        h5 {
+            font-family: 'Satoshi';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            color: #000000;
+        }
+
+        p {
+            font-family: 'Satoshi';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #555555;
+        }
+    }
+}
+
+.landingCommunity {
+    .community-text {
+        h1 {
+            font-family: 'Satoshi';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32.4px;
+            letter-spacing: -1.5%;
+            color: #222222;
+        }
+
+        p {
+            font-family: 'Satoshi';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            color: #555555;
+        }
+    }
+
+    .card {
+        padding: 20px;
+        border: 1px solid #ECEFF9;
+        background-color: #F5F5FB;
+        border-radius: 8px;
+        margin-top: 24px;
+
+        h2{
+            font-family: 'Satoshi';
+            font-weight: 500;
+            font-size: 160px;
+            line-height: 216px;
+            color: #3138A8;
+            top: 35px;
+            right: -20px;
+        }
+        img {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-family: 'Satoshi';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #222222;
+            margin-top: 7px;
+        }
+
+        h6,
+        p {
+            font-family: 'Satoshi';
+            font-family: 400;
+            line-height: 18.9px;
+            font-size: 14px;
+            margin-top: 9px;
+        }
+
+        h6 {
+            color: #555555;
+        }
+
+        p {
+            color: #ADADAD;
+        }
+
+        span {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: #3138A8;
+        }
+
+        h5 {
+            font-family: 'Satoshi';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #555555;
+        }
+
+        .opinion {
+            gap: 40px;
+
+            i {
+                color: #555555;
+                margin-right: 5px;
+            }
+
+            div {
+                color: #222222;
+                font-size: 14px;
+                font-family: 'Satoshi';
+                font-weight: 500;
+                line-height: 18.9px;
+            }
+        }
+
+        .box {
+            gap: 42px;
+
+            div {
+                font-family: 'Satoshi';
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18.9px;
+                color: #555555;
+
+                p {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 21.6px;
+                    color: #3138A8;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.landingMentors{
+    font-family: 'Satoshi';
+     h1{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32.4px;
+      letter-spacing: -1.5px;
+      color: #222222;
+     }
+     p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.6px;
+        color: #555555;
+     }
+     .card{
+        background-color: #00000000;
+        img{
+            border-radius: 9.07px;
+        }
+        .card-title{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #222222;
+        }
+        .card-text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #555555;
+        }
+        span{
+            background-color: #FFFFFF;
+            color: #3138A8;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            padding: 4px 10px 4px 10px;
+        }
+
+    }
+    button{
+        background-color: #3138A8;
+        width: 130px;
+        height: 42px;
+        padding: 10px, 24px, 10px, 24px;
+        border-radius: 8px;
+        font-weight: 500;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 21.6px;
+    }
+}
+
+.colearner{
+    overflow-x: hidden;
+    font-family: 'Satoshi';
+    h1{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32.4px;
+      letter-spacing: -1.5%;
+      color: #222222;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.6px;
+        color: #555555;
+    }
+    span{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #3138A8;
+        margin-top: 7px;
+
+    }
+
+    button{
+        border-radius:  8px;
+        background-color: #3138A8;
+        padding:  10px 24px 10px 24px;
+        width: 124px;
+        height: 42px;
+        font-family: 'Satoshi';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.6px;
+        color: #FFFFFF;
+    }
+    .list-group{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .dev-con{
+        width: 551px;
+        height: 418.27px;
+        position: relative;
+        .dev-card{
+            background-color: #FFFFFF;
+            border: 1.12px solid #E3E3E3;
+            border-radius: 8.92px;
+            width: 450.62px;
+            height: 343.54px;
+            h1{
+                color: #222222;
+                font-weight: 700;
+                font-size: 17.85px;
+                line-height: 24.09px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 13.38px;
+                line-height: 18.07px;
+                color: #555555;
+                background-color: #3138A80D;
+                padding: 4.46px 6.69px 4.46px 6.69px;
+                border-radius: 4.46px;
+            }
+            .row{
+                row-gap: 13px;
+                .card{
+                    border-radius: 4.46px;
+                    border: 1.12px solid #E3E3E3;
+                    width: max-content;
+                    img{
+                        object-fit: contain;
+                        width: 125px;
+                        height: 111px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+.phone{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .computer{
+        display: none;
+    }
+    .phone {
+        display: block;
+        .dev-con{
+            width: 423px;
+            height: 323.86px;
+            .dev-card{
+                width: 345.94px;
+                height: 266px;
+                    img{
+                        object-fit: contain;
+                        width: 90px !important;
+                        height: 70px !important;
+                    }
+                
+            }
+        }
+    }
+}
